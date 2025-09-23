@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+</head>
+
+<body style="text-align: center;">
+    <header><h1>Andrés Satoba Castro</h1></header>
+    <nav>
+        <ul style="list-style: none; display: flex; justify-content: space-around;">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Competencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 id="about">Sobre Mí</h2>
+            <br>
+            <img src="./img/Perfil.jpeg" alt="Perfil" style="width: 10%; border-radius: 50%;">
+            <br>    
+            <p>Soy estudiante de Análisis y Desarrollo de Software, con conocimientos en programación, bases de datos, desarrollo de aplicaciones y metodologías ágiles. Completé un Bootcamp en Desarrollo Web, donde aprendí a crear sitios y aplicaciones web funcionales, integrando bases de datos y aplicando buenas prácticas.</p>
+            <p>También tengo experiencia en procesos operativos, análisis de información, atención al cliente y liderazgo, gracias a mi formación en Gestión Bancaria y de Entidades Financieras.</p>
+            <p>Me destaco por mi facilidad de aprendizaje, responsabilidad, comunicación asertiva, trabajo en equipo y orientación a resultados, lo que me permite aportar en proyectos tecnológicos y organizacionales.</p>
+        </section>
+        <section>
+            <h2 id="skills">Competencias</h2>
+            <table border="1" style="display: inline-block;">
+                <caption><strong>Habilidades</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Comunicación y liderazgo</td>
+                        <td>Avanzado</td>
+                        <td>Atención al cliente y comunicación asertiva efectiva.</td>
+                    </tr>
+                    <tr>
+                        <td>Avanzado</td>
+                        <td>Liderazgo y motivación de equipos de trabajo.</td>
+                    </tr>
+                    <tr>
+                        <td>Avanzado</td>
+                        <td>Trabajo en equipo colaborativo y resolución de problemas.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Organización y aprendizaje</td>
+                        <td>Intermedio</td>
+                        <td>Facilidad para adquirir nuevos conocimientos y adaptarse.</td>
+                    </tr>
+                    <tr>
+                        <td>Avanzado</td>
+                        <td>Responsabilidad en la ejecución de tareas y proyectos.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br><br>
+
+            <table border="1" style="display: inline-block;">
+                <caption><strong>Conocimientos</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Conocimiento</th>
+                        <th>Nivel</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Desarrollo de Software</td>
+                        <td>Intermedio</td>
+                        <td>Programación y construcción de aplicaciones funcionales.</td>
+                    </tr>
+                    <tr>
+                        <td>Intermedio</td>
+                        <td>Bases de datos y gestión de información.</td>
+                    </tr>
+                    <tr>
+                        <td>Básico</td>
+                        <td>Análisis de requerimientos y control de calidad.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Desarrollo Web</td>
+                        <td>Básico</td>
+                        <td>Diseño y estilización de interfaces web.</td>
+                    </tr>
+                    <tr>
+                        <td>Básico</td>
+                        <td>Integración de bases de datos en aplicaciones web.</td>
+                    </tr>
+                    <tr>
+                        <td>Básico</td>
+                        <td>Despliegue de aplicaciones en la nube.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas enviarme un mensaje, completa el siguiente formulario:</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Tu nombre">
+                <br><br>
+                <label for="email">Correo electrónico:</label>
+                <br>
+                <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                <br><br>
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea id="mensaje" name="mensaje" required minlength="10" placeholder="Escribe tu mensaje" style="width: 300px; height: 80px;"></textarea>
+                <br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Andrés Satoba. Todos los derechos reservados.</p>
+        <strong>Sígueme en:</strong>
+        <br><br>
+        <div>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt="Linkedin" style="width: 50px;"></a>
+            <a href="https://github.com/" target="_blank"><img src="./img/github.png" alt="GitHub" style="width: 50px;"></a>
+        </div>
+        <p>Contacto: <a href="mailto:ejemplo@ejemplo.com">ejemplo@ejemplo.com</a></p>
+    </footer>
+</body>
+
+</html>
