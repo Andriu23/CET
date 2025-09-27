@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>DevWebHub</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header_img" src="" alt="Logo">
+        <h1 class="header_titulo">DevWebHub</h1>
+    </header>
+    <main class="contenido_principal">
+        <!-- FILTROS / CATEGORÍAS -->
+        <aside class="filtros">
+            <h2 class="filtro_titulo">Filtrar por Categoría</h2>
+            <form class="filtro_categorias">
+                <label class="filtro_categorias_item"><input class="filtro_categorias_item_check" type="checkbox"
+                        name="categoria" value="html"> HTML</label><br>
+                <label class="filtro_categorias_item"><input class="filtro_categorias_item_check" type="checkbox"
+                        name="categoria" value="css"> CSS</label><br>
+                <label class="filtro_categorias_item"><input class="filtro_categorias_item_check" type="checkbox"
+                        name="categoria" value="javascript"> JavaScript</label><br>
+                <label class="filtro_categorias_item"><input class="filtro_categorias_item_check" type="checkbox"
+                        name="categoria" value="react"> React</label><br>
+            </form>
+        </aside>
+        <!-- CATÁLOGO DE LIBROS -->
+        <section class="catalogo">
+            <h2 class="catalogo_titulo">CATÁLOGO DE LIBROS</h2>
+            <!-- 3 Libros HTML -->
+            <div class="catalogo_principal">
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">HTML</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/HTML_desde_Cero.png" alt="HTML desde Cero">
+                        <figcaption class="catalogo_libro_portada_titulo">Guía básica de HTML</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Aprende etiquetas básicas, estructura y buenas prácticas.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$12.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 2 Libro HTML -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">HTML</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/HTML5_Paso_a_Paso.png" alt="HTML5 Paso a Paso">
+                        <figcaption class="catalogo_libro_portada_titulo">HTML5 con ejemplos</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Domina etiquetas semánticas y multimedia con ejemplos reales.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$14.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 3 Libro HTML -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">HTML</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/Domina_HTML5_y_Accesibilidad.png" alt="Domina HTML5 y Accesibilidad">
+                        <figcaption class="catalogo_libro_portada_titulo">Buenas prácticas y accesibilidad</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Conoce técnicas para HTML5 moderno y accesible.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$15.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 1 Libro CSS -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">CSS</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/CSS_para_Principiantes.png" alt="CSS para Principiantes">
+                        <figcaption class="catalogo_libro_portada_titulo">Primeros pasos con CSS</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Estilos, colores, tipografía y layouts básicos.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$13.50</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 2 Libro CSS -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">CSS</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/CSS_Grid_Completo.png" alt="CSS Grid Completo">
+                        <figcaption class="catalogo_libro_portada_titulo">Layouts modernos</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Aprende a usar CSS Grid para diseños responsivos y flexibles.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$16.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 3 Libro CSS -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">CSS</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/CSS_Flexbox_y_Responsive.png" alt="CSS Flexbox y Responsive">
+                        <figcaption class="catalogo_libro_portada_titulo">Flexbox y responsive design</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Domina Flexbox y diseño responsive paso a paso.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$17.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 1 Libro JavaScript -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">JavaScript</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/JavaScript_Esencial.png" alt="JavaScript Esencial">
+                        <figcaption class="catalogo_libro_portada_titulo">Fundamentos de JS</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Variables, funciones, DOM y eventos para principiantes.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$16.50</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 2 Libro JavaScript -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">JavaScript</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/JavaScript_Moderno.png" alt="JavaScript Moderno">
+                        <figcaption class="catalogo_libro_portada_titulo">ES6+ y más</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Nuevas características y ejemplos prácticos de JS moderno.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$18.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 3 Libro JavaScript -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">JavaScript</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="./img/JavaScript_con_Proyectos.png" alt="JavaScript con Proyectos">
+                        <figcaption class="catalogo_libro_portada_titulo">Aprende creando proyectos</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Refuerza tus conocimientos con proyectos reales de JS.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$19.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 1 Libro React -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">React</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="" alt="React Paso a Paso">
+                        <figcaption class="catalogo_libro_portada_titulo">Iníciate en React</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Componentes, props, estado y hooks básicos.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$20.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 2 Libro React -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">React</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="" alt="React con Proyectos">
+                        <figcaption class="catalogo_libro_portada_titulo">Practica React</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Crea aplicaciones pequeñas paso a paso con React.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$22.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- 3 Libro React -->
+                <article class="catalogo_libro">
+                    <h4 class="catalogo_libro_categoria">React</h4>
+                    <figure class="catalogo_libro_portada">
+                        <img class="catalogo_libro_portada_img" src="" alt="React Avanzado y Hooks">
+                        <figcaption class="catalogo_libro_portada_titulo">Hooks avanzados</figcaption>
+                    </figure>
+                    <p class="catalogo_libro_descripcion">Aprende técnicas avanzadas y hooks personalizados en React.</p>
+                    <div class="catalogo_libro_detalles">
+                        <span class="catalogo_libro_detalles_precio">$24.00</span>
+                        <button class="catalogo_libro_detalles_boton">Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        &copy; 2025 Biblioteca Digital
+    </footer>
+</body>
+
+</html>
